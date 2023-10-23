@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
    padding: 0;
    font-family:sans-serif;
@@ -9,9 +9,8 @@
     width: 100%;
     height: 100%;
    min-height: 100vh; 
-    background: rgb(34,193,195);
-    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, 
-rgba(253,187,45,1) 100%); 
+   background: rgb(8,89,64);
+background: linear-gradient(29deg, rgba(8,89,64,1) 37%, rgba(12,28,69,1) 100%);
 padding: 10px;
    
 }
@@ -19,8 +18,9 @@ padding: 10px;
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background-color: white;     
-    margin: 100px auto 20px;
+    background: rgb(179,159,58);
+background: linear-gradient(303deg, rgba(179,159,58,1) 4%, rgba(120,213,96,1) 82%, rgba(204,224,105,1) 100%);
+    margin: 100px auto 20px; 
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
@@ -60,7 +60,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #99CAF0;
+    background: #90db53;
     color: #161313;
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -68,7 +68,10 @@ button{
     border-radius: 40px;
 }
 button:hover{
-    background-color: #588fba;
+    background-color: #c7ee5d;
+    transform: scale(1.1);
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: ease-in-out 0.2s;
 }
 
 
@@ -119,13 +122,14 @@ ul li span{
     color: #555;
     line-height: 40px;
     text-align: center;
+    color: #000000;
     border-radius: 50%;
      
 }
 
 
 ul li span:hover{
-    background: #edeef0;
+    background: #7dd757;
 }
 
 
