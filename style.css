@@ -16,6 +16,7 @@ padding: 10px;
 }
 
 .todo-app{
+    box-shadow: 5px 5px 5px 5px rgb(49, 124, 95);
     width: 100%;
     max-width: 540px;
     background: rgb(179,159,58);
